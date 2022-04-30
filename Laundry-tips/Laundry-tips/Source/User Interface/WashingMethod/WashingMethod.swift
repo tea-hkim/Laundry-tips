@@ -10,6 +10,9 @@ import SwiftUI
 struct WashingMethod: View {
     var body: some View {
         Text("WashingMethod")
+        NavigationLink(destination: WashingMethodDetail()){
+            Text("디테일 콘텐츠")
+        }
     }
 }
 

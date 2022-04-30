@@ -9,7 +9,9 @@ import SwiftUI
 
 struct DetergentInfo: View {
     var body: some View {
-        Text("DetergentInfo")
+        NavigationLink(destination: DetergentInfoDetail()){
+            Text("세탁 디테일 콘텐츠")
+        }
     }
 }
 

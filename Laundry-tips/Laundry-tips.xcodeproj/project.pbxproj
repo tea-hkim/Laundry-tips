@@ -56,13 +56,13 @@
 			path = Helper;
 			sourceTree = "<group>";
 		};
-		90EA42C7281CE52000847294 /* Source */ = {
+		90EA42C7281CE52000847294 /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				90EA42C6281CE4B200847294 /* Helper */,
 				90FFCD1D281BFFD900B772C0 /* User Interface */,
 			);
-			path = "\U0010Source";
+			path = Source;
 			sourceTree = "<group>";
 		};
 		90EA42C8281CE53500847294 /* Extension */ = {
@@ -92,7 +92,7 @@
 		90FFCD0E281BFE7700B772C0 /* Laundry-tips */ = {
 			isa = PBXGroup;
 			children = (
-				90EA42C7281CE52000847294 /* Source */,
+				90EA42C7281CE52000847294 /* Source */,
 				90FFCD33281C04A000B772C0 /* Resources */,
 				90FFCD0F281BFE7700B772C0 /* Laundry_tipsApp.swift */,
 				90FFCD15281BFE7900B772C0 /* Preview Content */,
