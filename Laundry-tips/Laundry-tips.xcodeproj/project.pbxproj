@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9033FA68281E7893009CB8AD /* IconBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9033FA67281E7893009CB8AD /* IconBox.swift */; };
 		90EA42CA281CE54800847294 /* ColorExtnesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EA42C9281CE54800847294 /* ColorExtnesion.swift */; };
 		90FFCD10281BFE7700B772C0 /* Laundry_tipsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FFCD0F281BFE7700B772C0 /* Laundry_tipsApp.swift */; };
 		90FFCD14281BFE7900B772C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90FFCD13281BFE7900B772C0 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9033FA67281E7893009CB8AD /* IconBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconBox.swift; sourceTree = "<group>"; };
 		90EA42C9281CE54800847294 /* ColorExtnesion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtnesion.swift; sourceTree = "<group>"; };
 		90FFCD0C281BFE7700B772C0 /* Laundry-tips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Laundry-tips.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90FFCD0F281BFE7700B772C0 /* Laundry_tipsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Laundry_tipsApp.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				90FFCD31281C019600B772C0 /* Home.swift */,
+				9033FA67281E7893009CB8AD /* IconBox.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 				90FFCD24281C009800B772C0 /* TimerSetting.swift in Sources */,
 				90FFCD32281C019600B772C0 /* Home.swift in Sources */,
 				90FFCD30281C012200B772C0 /* WashingMethodDetail.swift in Sources */,
+				9033FA68281E7893009CB8AD /* IconBox.swift in Sources */,
 				90FFCD26281C00AE00B772C0 /* TimerOn.swift in Sources */,
 				90FFCD28281C00DA00B772C0 /* DetergentInfo.swift in Sources */,
 				90FFCD10281BFE7700B772C0 /* Laundry_tipsApp.swift in Sources */,
