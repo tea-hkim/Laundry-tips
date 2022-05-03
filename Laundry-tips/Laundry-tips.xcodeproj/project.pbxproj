@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		9033FA68281E7893009CB8AD /* IconBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9033FA67281E7893009CB8AD /* IconBox.swift */; };
-		90897F1828200F7300D008F0 /* SubtitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90897F1728200F7300D008F0 /* SubtitleView.swift */; };
+		90897F1828200F7300D008F0 /* titleBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90897F1728200F7300D008F0 /* titleBox.swift */; };
+		90B7588128218EAC00308E4D /* SymbolBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B7588028218EAC00308E4D /* SymbolBox.swift */; };
 		90EA42CA281CE54800847294 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EA42C9281CE54800847294 /* ColorExtension.swift */; };
 		90FFCD10281BFE7700B772C0 /* Laundry_tipsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FFCD0F281BFE7700B772C0 /* Laundry_tipsApp.swift */; };
 		90FFCD14281BFE7900B772C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90FFCD13281BFE7900B772C0 /* Assets.xcassets */; };
@@ -25,7 +26,8 @@
 
 /* Begin PBXFileReference section */
 		9033FA67281E7893009CB8AD /* IconBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconBox.swift; sourceTree = "<group>"; };
-		90897F1728200F7300D008F0 /* SubtitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtitleView.swift; sourceTree = "<group>"; };
+		90897F1728200F7300D008F0 /* titleBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = titleBox.swift; sourceTree = "<group>"; };
+		90B7588028218EAC00308E4D /* SymbolBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SymbolBox.swift; sourceTree = "<group>"; };
 		90EA42C9281CE54800847294 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		90FFCD0C281BFE7700B772C0 /* Laundry-tips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Laundry-tips.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90FFCD0F281BFE7700B772C0 /* Laundry_tipsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Laundry_tipsApp.swift; sourceTree = "<group>"; };
@@ -123,7 +125,7 @@
 		90FFCD1D281BFFD900B772C0 /* User Interface */ = {
 			isa = PBXGroup;
 			children = (
-				90897F1728200F7300D008F0 /* SubtitleView.swift */,
+				90897F1728200F7300D008F0 /* titleBox.swift */,
 				90FFCD1F281C002F00B772C0 /* DetergentInfo */,
 				90897F1628200F0000D008F0 /* DetergentInfoDetail */,
 				90FFCD21281C004400B772C0 /* LaundrySymbols */,
@@ -163,6 +165,7 @@
 		90FFCD21281C004400B772C0 /* LaundrySymbols */ = {
 			isa = PBXGroup;
 			children = (
+				90B7588028218EAC00308E4D /* SymbolBox.swift */,
 				90FFCD2B281C010900B772C0 /* LaundrySymbols.swift */,
 			);
 			path = LaundrySymbols;
@@ -255,11 +258,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90B7588128218EAC00308E4D /* SymbolBox.swift in Sources */,
 				90FFCD2E281C011500B772C0 /* WashingMethod.swift in Sources */,
 				90FFCD24281C009800B772C0 /* TimerSetting.swift in Sources */,
 				90FFCD32281C019600B772C0 /* Home.swift in Sources */,
 				90FFCD30281C012200B772C0 /* WashingMethodDetail.swift in Sources */,
-				90897F1828200F7300D008F0 /* SubtitleView.swift in Sources */,
+				90897F1828200F7300D008F0 /* titleBox.swift in Sources */,
 				9033FA68281E7893009CB8AD /* IconBox.swift in Sources */,
 				90FFCD26281C00AE00B772C0 /* TimerOn.swift in Sources */,
 				90FFCD28281C00DA00B772C0 /* DetergentInfo.swift in Sources */,

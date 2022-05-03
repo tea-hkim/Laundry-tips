@@ -9,11 +9,11 @@ import SwiftUI
 
 extension Color {
     static let mainBlue = Color(hex: "#374DFC")
-    static let magenta = Color(hex: "#FC515A")
-    static let brightGreen = Color(hex: "#2BFC60")
-    static let brightOrange = Color(hex: "#FCCA1E")
-    static let brightBlue = Color(hex: "#1E38FC")
-    static let shadowGray = Color(hex: "#949393").opacity(0.2)
+    static let magenta = Color(hex: "#FA6E76")
+    static let brightGreen = Color(hex: "#79F298")
+    static let brightOrange = Color(hex: "#FFDA59")
+    static let brightPurple = Color(hex: "#A97DEC")
+    static let shadowGray = Color(hex: "#949393").opacity(0.4)
     static let darkGray = Color(hex: "#717573")
     static let lightBlack = Color(hex: "#343434")
 }

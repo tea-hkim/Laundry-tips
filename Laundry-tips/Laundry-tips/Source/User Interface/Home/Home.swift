@@ -31,7 +31,7 @@ struct Home: View {
                             }
                         }
                         .font(.system(size: 36, weight: .bold))
-                        .padding(.bottom, 23)
+                        .padding(.bottom, 20)
                         //Subtitle
                         
                         VStack(alignment: .leading) {
@@ -55,7 +55,7 @@ struct Home: View {
                                 IconBox(boxName: "세제정보", iconName: "drop.circle.fill", colorName: Color.magenta)
                             }.padding(.trailing, 20)
                             NavigationLink(destination: LaundrySymbols()) {
-                                IconBox(boxName: "세탁표시기호", iconName: "tag.square.fill", colorName: Color.brightOrange)
+                                IconBox(boxName: "세탁표시기호", iconName: "tag.fill", colorName: Color.brightOrange)
                             }
                         }.padding(.bottom,20)
                         HStack{
@@ -63,7 +63,7 @@ struct Home: View {
                                 IconBox(boxName: "세탁방법", iconName: "tshirt.fill", colorName: Color.brightGreen)
                             }.padding(.trailing, 20)
                             NavigationLink(destination: TimerSetting()) {
-                                IconBox(boxName: "세탁타이머", iconName: "timer", colorName: Color.brightBlue)
+                                IconBox(boxName: "세탁타이머", iconName: "clock.fill", colorName: Color.brightPurple)
                             }
                             
                         }
