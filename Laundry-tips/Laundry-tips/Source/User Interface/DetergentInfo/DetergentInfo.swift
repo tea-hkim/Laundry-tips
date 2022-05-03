@@ -17,7 +17,7 @@ struct DetergentInfo: View {
                     RoundedRectangle(cornerRadius: 15)
                         .foregroundColor(.white)
                         .frame(width: 359, height: 132)
-                        .shadow(color: .shadowGrey, radius: 4, x: 0, y: 4)
+                        .shadow(color: .shadowGray, radius: 4, x: 0, y: 4)
                     Text("세탁 디테일 콘텐츠")
                 }
             }

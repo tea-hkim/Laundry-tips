@@ -13,7 +13,9 @@ extension Color {
     static let brightGreen = Color(hex: "#2BFC60")
     static let brightOrange = Color(hex: "#FCCA1E")
     static let brightBlue = Color(hex: "#1E38FC")
-    static let shadowGrey = Color(hex: "#949393").opacity(0.2)
+    static let shadowGray = Color(hex: "#949393").opacity(0.2)
+    static let darkGray = Color(hex: "#717573")
+    static let lightBlack = Color(hex: "#343434")
 }
 
 extension Color {

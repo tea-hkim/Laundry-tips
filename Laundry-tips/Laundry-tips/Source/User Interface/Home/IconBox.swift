@@ -18,7 +18,7 @@ struct IconBox: View {
             RoundedRectangle(cornerRadius: 15)
                 .foregroundColor(Color.white)
                 .frame(width: 150, height: 155)
-                .shadow(color: .shadowGrey, radius: 4, x: 0, y: 4)
+                .shadow(color: .shadowGray, radius: 4, x: 0, y: 4)
             VStack{
                 Image(systemName: iconName).font(.system(size: 56))
                     .padding(.bottom,5)
