@@ -10,12 +10,16 @@ import SwiftUI
 struct LaundrySymbols: View {
     
     var body: some View {
-        Text("LaundrySymbols")
+        VStack {
+            titleBox(title: "세탁 표시 기호", subTitle: nil)
+            Text("LaundrySymbols")
+        }
+        .navigationBarTitle("", displayMode: .inline)
     }
 }
 
 struct LaundrySymbols_Previews: PreviewProvider {
     static var previews: some View {
-        LaundrySymbols()
+            LaundrySymbols()
     }
 }

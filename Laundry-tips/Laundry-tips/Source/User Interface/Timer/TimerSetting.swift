@@ -10,7 +10,11 @@ import SwiftUI
 struct TimerSetting: View {
     
     var body: some View {
-        Text("TimerSetting")
+        VStack {
+            titleBox(title: "세탁 타이머")
+            Text("TimerSetting")
+        }
+        .navigationBarTitle("", displayMode: .inline)
     }
 }
 

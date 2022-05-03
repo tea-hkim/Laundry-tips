@@ -68,10 +68,10 @@ struct Home: View {
                             
                         }
                     } //IconBoxContainer_VStack
-                    .navigationBarHidden(true)
                     .padding(.bottom,100)
                 } //ZStack
-                .frame(width: 390)
+                .navigationTitle("")
+                .navigationBarHidden(true)
             }//NavigationView
         }
     }

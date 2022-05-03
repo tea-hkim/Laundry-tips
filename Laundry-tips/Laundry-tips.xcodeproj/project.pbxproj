@@ -8,14 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		9033FA68281E7893009CB8AD /* IconBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9033FA67281E7893009CB8AD /* IconBox.swift */; };
-		90EA42CA281CE54800847294 /* ColorExtnesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EA42C9281CE54800847294 /* ColorExtnesion.swift */; };
+		90897F1828200F7300D008F0 /* SubtitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90897F1728200F7300D008F0 /* SubtitleView.swift */; };
+		90EA42CA281CE54800847294 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EA42C9281CE54800847294 /* ColorExtension.swift */; };
 		90FFCD10281BFE7700B772C0 /* Laundry_tipsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FFCD0F281BFE7700B772C0 /* Laundry_tipsApp.swift */; };
 		90FFCD14281BFE7900B772C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90FFCD13281BFE7900B772C0 /* Assets.xcassets */; };
 		90FFCD17281BFE7900B772C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90FFCD16281BFE7900B772C0 /* Preview Assets.xcassets */; };
 		90FFCD24281C009800B772C0 /* TimerSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FFCD23281C009800B772C0 /* TimerSetting.swift */; };
 		90FFCD26281C00AE00B772C0 /* TimerOn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FFCD25281C00AE00B772C0 /* TimerOn.swift */; };
 		90FFCD28281C00DA00B772C0 /* DetergentInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FFCD27281C00DA00B772C0 /* DetergentInfo.swift */; };
-		90FFCD2A281C00EE00B772C0 /* DetergentInfoDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FFCD29281C00EE00B772C0 /* DetergentInfoDetail.swift */; };
+		90FFCD2A281C00EE00B772C0 /* DetergentInfoDetail_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FFCD29281C00EE00B772C0 /* DetergentInfoDetail_1.swift */; };
 		90FFCD2C281C010900B772C0 /* LaundrySymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FFCD2B281C010900B772C0 /* LaundrySymbols.swift */; };
 		90FFCD2E281C011500B772C0 /* WashingMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FFCD2D281C011500B772C0 /* WashingMethod.swift */; };
 		90FFCD30281C012200B772C0 /* WashingMethodDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FFCD2F281C012200B772C0 /* WashingMethodDetail.swift */; };
@@ -24,7 +25,8 @@
 
 /* Begin PBXFileReference section */
 		9033FA67281E7893009CB8AD /* IconBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconBox.swift; sourceTree = "<group>"; };
-		90EA42C9281CE54800847294 /* ColorExtnesion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtnesion.swift; sourceTree = "<group>"; };
+		90897F1728200F7300D008F0 /* SubtitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtitleView.swift; sourceTree = "<group>"; };
+		90EA42C9281CE54800847294 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		90FFCD0C281BFE7700B772C0 /* Laundry-tips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Laundry-tips.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90FFCD0F281BFE7700B772C0 /* Laundry_tipsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Laundry_tipsApp.swift; sourceTree = "<group>"; };
 		90FFCD13281BFE7900B772C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -32,7 +34,7 @@
 		90FFCD23281C009800B772C0 /* TimerSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerSetting.swift; sourceTree = "<group>"; };
 		90FFCD25281C00AE00B772C0 /* TimerOn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerOn.swift; sourceTree = "<group>"; };
 		90FFCD27281C00DA00B772C0 /* DetergentInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetergentInfo.swift; sourceTree = "<group>"; };
-		90FFCD29281C00EE00B772C0 /* DetergentInfoDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetergentInfoDetail.swift; sourceTree = "<group>"; };
+		90FFCD29281C00EE00B772C0 /* DetergentInfoDetail_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetergentInfoDetail_1.swift; sourceTree = "<group>"; };
 		90FFCD2B281C010900B772C0 /* LaundrySymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaundrySymbols.swift; sourceTree = "<group>"; };
 		90FFCD2D281C011500B772C0 /* WashingMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WashingMethod.swift; sourceTree = "<group>"; };
 		90FFCD2F281C012200B772C0 /* WashingMethodDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WashingMethodDetail.swift; sourceTree = "<group>"; };
@@ -50,6 +52,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		90897F1628200F0000D008F0 /* DetergentInfoDetail */ = {
+			isa = PBXGroup;
+			children = (
+				90FFCD29281C00EE00B772C0 /* DetergentInfoDetail_1.swift */,
+			);
+			path = DetergentInfoDetail;
+			sourceTree = "<group>";
+		};
 		90EA42C6281CE4B200847294 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
@@ -70,7 +80,7 @@
 		90EA42C8281CE53500847294 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				90EA42C9281CE54800847294 /* ColorExtnesion.swift */,
+				90EA42C9281CE54800847294 /* ColorExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -113,10 +123,12 @@
 		90FFCD1D281BFFD900B772C0 /* User Interface */ = {
 			isa = PBXGroup;
 			children = (
-				90FFCD22281C005900B772C0 /* WashingMethod */,
-				90FFCD21281C004400B772C0 /* LaundrySymbols */,
-				90FFCD20281C003F00B772C0 /* Timer */,
+				90897F1728200F7300D008F0 /* SubtitleView.swift */,
 				90FFCD1F281C002F00B772C0 /* DetergentInfo */,
+				90897F1628200F0000D008F0 /* DetergentInfoDetail */,
+				90FFCD21281C004400B772C0 /* LaundrySymbols */,
+				90FFCD22281C005900B772C0 /* WashingMethod */,
+				90FFCD20281C003F00B772C0 /* Timer */,
 				90FFCD1E281C002700B772C0 /* Home */,
 			);
 			path = "User Interface";
@@ -135,7 +147,6 @@
 			isa = PBXGroup;
 			children = (
 				90FFCD27281C00DA00B772C0 /* DetergentInfo.swift */,
-				90FFCD29281C00EE00B772C0 /* DetergentInfoDetail.swift */,
 			);
 			path = DetergentInfo;
 			sourceTree = "<group>";
@@ -248,13 +259,14 @@
 				90FFCD24281C009800B772C0 /* TimerSetting.swift in Sources */,
 				90FFCD32281C019600B772C0 /* Home.swift in Sources */,
 				90FFCD30281C012200B772C0 /* WashingMethodDetail.swift in Sources */,
+				90897F1828200F7300D008F0 /* SubtitleView.swift in Sources */,
 				9033FA68281E7893009CB8AD /* IconBox.swift in Sources */,
 				90FFCD26281C00AE00B772C0 /* TimerOn.swift in Sources */,
 				90FFCD28281C00DA00B772C0 /* DetergentInfo.swift in Sources */,
 				90FFCD10281BFE7700B772C0 /* Laundry_tipsApp.swift in Sources */,
-				90EA42CA281CE54800847294 /* ColorExtnesion.swift in Sources */,
+				90EA42CA281CE54800847294 /* ColorExtension.swift in Sources */,
 				90FFCD2C281C010900B772C0 /* LaundrySymbols.swift in Sources */,
-				90FFCD2A281C00EE00B772C0 /* DetergentInfoDetail.swift in Sources */,
+				90FFCD2A281C00EE00B772C0 /* DetergentInfoDetail_1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
