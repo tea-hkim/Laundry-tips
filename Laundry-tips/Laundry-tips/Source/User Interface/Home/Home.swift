@@ -35,9 +35,7 @@ struct Home: View {
                         //Subtitle
                         
                         VStack(alignment: .leading) {
-                            Text("자취 경력 6년을 살려 세탁에 관한 꿀팁을 담은")
-                            Text("모바일 애플리케이션을 만들었습니다.")
-                            Text("관심있는 정보를 클릭해주세요!")
+                            Text("자취 경력 6년을 살려 세탁에 관한 꿀팁을 담은\n모바일 애플리케이션을 만들었습니다.\n관심있는 정보를 클릭해주세요!")
                         }
                         .font(.system(size: 16, weight: .medium))
                         .foregroundColor(Color(hex: "#FEFEFE"))
