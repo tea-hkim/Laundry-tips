@@ -12,7 +12,10 @@ struct TimerSetting: View {
     var body: some View {
         VStack {
             titleBox(title: "세탁 타이머")
-            Text("TimerSetting")
+            Text("타이머는 작업중....")
+                .font(.system(size: 24, weight: .bold))
+                .foregroundColor(.mainBlue)
+            Spacer()
         }
         .navigationBarTitle("", displayMode: .inline)
     }
