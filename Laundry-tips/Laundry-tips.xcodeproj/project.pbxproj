@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9033FA68281E7893009CB8AD /* IconBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9033FA67281E7893009CB8AD /* IconBox.swift */; };
+		90897F1828200F7300D008F0 /* titleBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90897F1728200F7300D008F0 /* titleBox.swift */; };
+		90B7588128218EAC00308E4D /* SymbolBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B7588028218EAC00308E4D /* SymbolBox.swift */; };
+		90E1F2D32823E8C5001A787D /* WashingMethodDetail2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E1F2D22823E8C5001A787D /* WashingMethodDetail2.swift */; };
+		90E1F2D52823E8D0001A787D /* WashingMethodDetail3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E1F2D42823E8D0001A787D /* WashingMethodDetail3.swift */; };
+		90E1F2D72823E8D8001A787D /* WashingMethodDetail4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E1F2D62823E8D8001A787D /* WashingMethodDetail4.swift */; };
+		90E1F2D92823E8E3001A787D /* WashingMethodDetail5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E1F2D82823E8E3001A787D /* WashingMethodDetail5.swift */; };
+		90E1F2DB2823E911001A787D /* DetergentInfoDetail2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E1F2DA2823E911001A787D /* DetergentInfoDetail2.swift */; };
+		90E1F2DD2823E91A001A787D /* DetergentInfoDetail3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E1F2DC2823E91A001A787D /* DetergentInfoDetail3.swift */; };
+		90E1F2DF2823E923001A787D /* DetergentInfoDetail4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E1F2DE2823E923001A787D /* DetergentInfoDetail4.swift */; };
+		90E1F2E12823E92B001A787D /* DetergentInfoDetail5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E1F2E02823E92B001A787D /* DetergentInfoDetail5.swift */; };
+		90EA42CA281CE54800847294 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EA42C9281CE54800847294 /* ColorExtension.swift */; };
+		90FFCD10281BFE7700B772C0 /* Laundry_tipsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FFCD0F281BFE7700B772C0 /* Laundry_tipsApp.swift */; };
+		90FFCD14281BFE7900B772C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90FFCD13281BFE7900B772C0 /* Assets.xcassets */; };
+		90FFCD17281BFE7900B772C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90FFCD16281BFE7900B772C0 /* Preview Assets.xcassets */; };
+		90FFCD24281C009800B772C0 /* TimerSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FFCD23281C009800B772C0 /* TimerSetting.swift */; };
+		90FFCD26281C00AE00B772C0 /* TimerOn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FFCD25281C00AE00B772C0 /* TimerOn.swift */; };
+		90FFCD28281C00DA00B772C0 /* DetergentInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FFCD27281C00DA00B772C0 /* DetergentInfo.swift */; };
+		90FFCD2A281C00EE00B772C0 /* DetergentInfoDetail1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FFCD29281C00EE00B772C0 /* DetergentInfoDetail1.swift */; };
+		90FFCD2C281C010900B772C0 /* LaundrySymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FFCD2B281C010900B772C0 /* LaundrySymbols.swift */; };
+		90FFCD2E281C011500B772C0 /* WashingMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FFCD2D281C011500B772C0 /* WashingMethod.swift */; };
+		90FFCD30281C012200B772C0 /* WashingMethodDetail1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FFCD2F281C012200B772C0 /* WashingMethodDetail1.swift */; };
+		90FFCD32281C019600B772C0 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FFCD31281C019600B772C0 /* Home.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9033FA67281E7893009CB8AD /* IconBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconBox.swift; sourceTree = "<group>"; };
+		90897F1728200F7300D008F0 /* titleBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = titleBox.swift; sourceTree = "<group>"; };
+		90B7588028218EAC00308E4D /* SymbolBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SymbolBox.swift; sourceTree = "<group>"; };
+		90E1F2D22823E8C5001A787D /* WashingMethodDetail2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WashingMethodDetail2.swift; sourceTree = "<group>"; };
+		90E1F2D42823E8D0001A787D /* WashingMethodDetail3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WashingMethodDetail3.swift; sourceTree = "<group>"; };
+		90E1F2D62823E8D8001A787D /* WashingMethodDetail4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WashingMethodDetail4.swift; sourceTree = "<group>"; };
+		90E1F2D82823E8E3001A787D /* WashingMethodDetail5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WashingMethodDetail5.swift; sourceTree = "<group>"; };
+		90E1F2DA2823E911001A787D /* DetergentInfoDetail2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetergentInfoDetail2.swift; sourceTree = "<group>"; };
+		90E1F2DC2823E91A001A787D /* DetergentInfoDetail3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetergentInfoDetail3.swift; sourceTree = "<group>"; };
+		90E1F2DE2823E923001A787D /* DetergentInfoDetail4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetergentInfoDetail4.swift; sourceTree = "<group>"; };
+		90E1F2E02823E92B001A787D /* DetergentInfoDetail5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetergentInfoDetail5.swift; sourceTree = "<group>"; };
+		90EA42C9281CE54800847294 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		90FFCD0C281BFE7700B772C0 /* Laundry-tips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Laundry-tips.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90FFCD0F281BFE7700B772C0 /* Laundry_tipsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Laundry_tipsApp.swift; sourceTree = "<group>"; };
+		90FFCD13281BFE7900B772C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90FFCD16281BFE7900B772C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		90FFCD23281C009800B772C0 /* TimerSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerSetting.swift; sourceTree = "<group>"; };
+		90FFCD25281C00AE00B772C0 /* TimerOn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerOn.swift; sourceTree = "<group>"; };
+		90FFCD27281C00DA00B772C0 /* DetergentInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetergentInfo.swift; sourceTree = "<group>"; };
+		90FFCD29281C00EE00B772C0 /* DetergentInfoDetail1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetergentInfoDetail1.swift; sourceTree = "<group>"; };
+		90FFCD2B281C010900B772C0 /* LaundrySymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaundrySymbols.swift; sourceTree = "<group>"; };
+		90FFCD2D281C011500B772C0 /* WashingMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WashingMethod.swift; sourceTree = "<group>"; };
+		90FFCD2F281C012200B772C0 /* WashingMethodDetail1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WashingMethodDetail1.swift; sourceTree = "<group>"; };
+		90FFCD31281C019600B772C0 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90FFCD09281BFE7700B772C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90897F1628200F0000D008F0 /* DetergentInfoDetail */ = {
+			isa = PBXGroup;
+			children = (
+				90FFCD29281C00EE00B772C0 /* DetergentInfoDetail1.swift */,
+				90E1F2DA2823E911001A787D /* DetergentInfoDetail2.swift */,
+				90E1F2DC2823E91A001A787D /* DetergentInfoDetail3.swift */,
+				90E1F2DE2823E923001A787D /* DetergentInfoDetail4.swift */,
+				90E1F2E02823E92B001A787D /* DetergentInfoDetail5.swift */,
+			);
+			path = DetergentInfoDetail;
+			sourceTree = "<group>";
+		};
+		90E1F2D128226B5B001A787D /* WashingMethodDetail */ = {
+			isa = PBXGroup;
+			children = (
+				90FFCD2F281C012200B772C0 /* WashingMethodDetail1.swift */,
+				90E1F2D22823E8C5001A787D /* WashingMethodDetail2.swift */,
+				90E1F2D42823E8D0001A787D /* WashingMethodDetail3.swift */,
+				90E1F2D62823E8D8001A787D /* WashingMethodDetail4.swift */,
+				90E1F2D82823E8E3001A787D /* WashingMethodDetail5.swift */,
+			);
+			path = WashingMethodDetail;
+			sourceTree = "<group>";
+		};
+		90EA42C6281CE4B200847294 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				90EA42C8281CE53500847294 /* Extension */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		90EA42C7281CE52000847294 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				90EA42C6281CE4B200847294 /* Helper */,
+				90FFCD1D281BFFD900B772C0 /* User Interface */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		90EA42C8281CE53500847294 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				90EA42C9281CE54800847294 /* ColorExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		90FFCD03281BFE7700B772C0 = {
+			isa = PBXGroup;
+			children = (
+				90FFCD0E281BFE7700B772C0 /* Laundry-tips */,
+				90FFCD0D281BFE7700B772C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90FFCD0D281BFE7700B772C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90FFCD0C281BFE7700B772C0 /* Laundry-tips.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90FFCD0E281BFE7700B772C0 /* Laundry-tips */ = {
+			isa = PBXGroup;
+			children = (
+				90EA42C7281CE52000847294 /* Source */,
+				90FFCD33281C04A000B772C0 /* Resources */,
+				90FFCD0F281BFE7700B772C0 /* Laundry_tipsApp.swift */,
+				90FFCD15281BFE7900B772C0 /* Preview Content */,
+			);
+			path = "Laundry-tips";
+			sourceTree = "<group>";
+		};
+		90FFCD15281BFE7900B772C0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				90FFCD16281BFE7900B772C0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		90FFCD1D281BFFD900B772C0 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				90897F1728200F7300D008F0 /* titleBox.swift */,
+				90FFCD1F281C002F00B772C0 /* DetergentInfo */,
+				90897F1628200F0000D008F0 /* DetergentInfoDetail */,
+				90E1F2D128226B5B001A787D /* WashingMethodDetail */,
+				90FFCD22281C005900B772C0 /* WashingMethod */,
+				90FFCD21281C004400B772C0 /* LaundrySymbols */,
+				90FFCD20281C003F00B772C0 /* Timer */,
+				90FFCD1E281C002700B772C0 /* Home */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		90FFCD1E281C002700B772C0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				90FFCD31281C019600B772C0 /* Home.swift */,
+				9033FA67281E7893009CB8AD /* IconBox.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		90FFCD1F281C002F00B772C0 /* DetergentInfo */ = {
+			isa = PBXGroup;
+			children = (
+				90FFCD27281C00DA00B772C0 /* DetergentInfo.swift */,
+			);
+			path = DetergentInfo;
+			sourceTree = "<group>";
+		};
+		90FFCD20281C003F00B772C0 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				90FFCD23281C009800B772C0 /* TimerSetting.swift */,
+				90FFCD25281C00AE00B772C0 /* TimerOn.swift */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+		90FFCD21281C004400B772C0 /* LaundrySymbols */ = {
+			isa = PBXGroup;
+			children = (
+				90B7588028218EAC00308E4D /* SymbolBox.swift */,
+				90FFCD2B281C010900B772C0 /* LaundrySymbols.swift */,
+			);
+			path = LaundrySymbols;
+			sourceTree = "<group>";
+		};
+		90FFCD22281C005900B772C0 /* WashingMethod */ = {
+			isa = PBXGroup;
+			children = (
+				90FFCD2D281C011500B772C0 /* WashingMethod.swift */,
+			);
+			path = WashingMethod;
+			sourceTree = "<group>";
+		};
+		90FFCD33281C04A000B772C0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				90FFCD13281BFE7900B772C0 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90FFCD0B281BFE7700B772C0 /* Laundry-tips */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90FFCD1A281BFE7900B772C0 /* Build configuration list for PBXNativeTarget "Laundry-tips" */;
+			buildPhases = (
+				90FFCD08281BFE7700B772C0 /* Sources */,
+				90FFCD09281BFE7700B772C0 /* Frameworks */,
+				90FFCD0A281BFE7700B772C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Laundry-tips";
+			productName = "Laundry-tips";
+			productReference = 90FFCD0C281BFE7700B772C0 /* Laundry-tips.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90FFCD04281BFE7700B772C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					90FFCD0B281BFE7700B772C0 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 90FFCD07281BFE7700B772C0 /* Build configuration list for PBXProject "Laundry-tips" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90FFCD03281BFE7700B772C0;
+			productRefGroup = 90FFCD0D281BFE7700B772C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90FFCD0B281BFE7700B772C0 /* Laundry-tips */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90FFCD0A281BFE7700B772C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90FFCD17281BFE7900B772C0 /* Preview Assets.xcassets in Resources */,
+				90FFCD14281BFE7900B772C0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90FFCD08281BFE7700B772C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90B7588128218EAC00308E4D /* SymbolBox.swift in Sources */,
+				90FFCD2E281C011500B772C0 /* WashingMethod.swift in Sources */,
+				90E1F2D32823E8C5001A787D /* WashingMethodDetail2.swift in Sources */,
+				90FFCD24281C009800B772C0 /* TimerSetting.swift in Sources */,
+				90FFCD32281C019600B772C0 /* Home.swift in Sources */,
+				90FFCD30281C012200B772C0 /* WashingMethodDetail1.swift in Sources */,
+				90E1F2DF2823E923001A787D /* DetergentInfoDetail4.swift in Sources */,
+				90E1F2DB2823E911001A787D /* DetergentInfoDetail2.swift in Sources */,
+				90E1F2D52823E8D0001A787D /* WashingMethodDetail3.swift in Sources */,
+				90897F1828200F7300D008F0 /* titleBox.swift in Sources */,
+				9033FA68281E7893009CB8AD /* IconBox.swift in Sources */,
+				90FFCD26281C00AE00B772C0 /* TimerOn.swift in Sources */,
+				90E1F2E12823E92B001A787D /* DetergentInfoDetail5.swift in Sources */,
+				90E1F2DD2823E91A001A787D /* DetergentInfoDetail3.swift in Sources */,
+				90FFCD28281C00DA00B772C0 /* DetergentInfo.swift in Sources */,
+				90FFCD10281BFE7700B772C0 /* Laundry_tipsApp.swift in Sources */,
+				90EA42CA281CE54800847294 /* ColorExtension.swift in Sources */,
+				90FFCD2C281C010900B772C0 /* LaundrySymbols.swift in Sources */,
+				90E1F2D92823E8E3001A787D /* WashingMethodDetail5.swift in Sources */,
+				90E1F2D72823E8D8001A787D /* WashingMethodDetail4.swift in Sources */,
+				90FFCD2A281C00EE00B772C0 /* DetergentInfoDetail1.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		90FFCD18281BFE7900B772C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		90FFCD19281BFE7900B772C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90FFCD1B281BFE7900B772C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Laundry-tips/Preview Content\"";
+				DEVELOPMENT_TEAM = 26TTJCC6C2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "developer.Nick.Laundry-tips";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		90FFCD1C281BFE7900B772C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Laundry-tips/Preview Content\"";
+				DEVELOPMENT_TEAM = 26TTJCC6C2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "developer.Nick.Laundry-tips";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90FFCD07281BFE7700B772C0 /* Build configuration list for PBXProject "Laundry-tips" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90FFCD18281BFE7900B772C0 /* Debug */,
+				90FFCD19281BFE7900B772C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90FFCD1A281BFE7900B772C0 /* Build configuration list for PBXNativeTarget "Laundry-tips" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90FFCD1B281BFE7900B772C0 /* Debug */,
+				90FFCD1C281BFE7900B772C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90FFCD04281BFE7700B772C0 /* Project object */;
+}
